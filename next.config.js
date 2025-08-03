@@ -5,7 +5,11 @@ const nextConfig = {
   },
   images: {
     domains: ['images.unsplash.com', 'via.placeholder.com'],
+    unoptimized: true
   },
+  output: 'standalone',
+  compress: true,
+  poweredByHeader: false
 }
 
 module.exports = nextConfig 
